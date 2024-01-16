@@ -1,80 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Documentación de la Aplicación</title>
-    
+    <title>PUREFORMA - Especificaciones del Proyecto</title>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <!-- Estilos personalizados -->
-    <style>
-        body {
-            padding-top: 56px; /* Ajuste para el navbar fijo */
-        }
-
-        .navbar {
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<!-- Barra de navegación -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Documentación</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#seccion1">Sección 1</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#seccion2">Sección 2</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#seccion3">Sección 3</a>
-            </li>
-            <!-- Agrega más elementos según sea necesario -->
-        </ul>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Documentación PUREFORMA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#descripcion">Descripción del Proyecto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#objetivo">Objetivo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tecnologias">Tecnologías Utilizadas</a>
+                </li>
+                <!-- Agrega más elementos según sea necesario -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido de la documentación -->
+    <div class="container mt-4">
+        <!-- Descripción del Proyecto -->
+        <section id="descripcion">
+            <h2>PUREFORMA - Especificaciones del Proyecto</h2>
+
+            <h3>Descripción del Proyecto</h3>
+            <p>PUREFORMA es una aplicación Java diseñada para uso de clientes de una tienda de ropa. Esta aplicación nos
+                permitirá realizar acciones comunes de cualquier aplicación y a su vez acciones comunes de una tienda.
+            </p>
+            <ul>
+                <li>Registro de usuarios.</li>
+                <li>Inicio de sesión de usuarios.</li>
+                <li>Acceder con distintos tipos de ROL al aplicativo (Admin o User).</li>
+                <li>Listar artículos de ropa.</li>
+                <li>Añadir productos al carrito.</li>
+                <li>Emular compras de los productos del carrito.</li>
+            </ul>
+        </section>
+
+        <!-- Objetivo del Proyecto -->
+        <section id="objetivo">
+            <h3>Objetivo</h3>
+            <p>El <strong>Objetivo principal</strong> es desarrollar una aplicación multiplataforma para la tienda de
+                ropa "PUREFORMA" con el propósito de mejorar la experiencia de compra de los clientes y optimizar la
+                gestión interna del inventario.</p>
+            <p>La aplicación <strong>busca proporcionar</strong> a los clientes una experiencia de compra intuitiva y
+                personalizada, facilitar la compra en línea con un carrito eficiente y un proceso de pago seguro,
+                optimizar la gestión del inventario en tiempo real, fidelizar a los clientes a través de programas de
+                lealtad, y recopilar datos para análisis continuo que permita mejorar la oferta y servicios de la
+                tienda. El objetivo global es aumentar las ventas, la satisfacción del cliente y la eficiencia operativa
+                de la tienda de ropa.</p>
+        </section>
+
+        <!-- Tecnologías Utilizadas -->
+        <section id="tecnologias">
+            <h3>Tecnologías Utilizadas</h3>
+            <p>Para poder llevar a cabo la creación de la aplicación haremos uso de varias tecnologías con el fin de
+                poder brindar una experiencia lo más eficiente, fácil y personalizada a los clientes. Para ello usaremos
+                las siguientes tecnologías:</p>
+            <ul>
+                <li><strong>Java (Backend)</strong>. Usaremos este lenguaje para el backend de la aplicación en sí.</li>
+                <li><strong>Java Swing (Frontend)</strong>. Usaremos la librería Java Swing y AWT para la creación de
+                    interfaces de usuario de la tienda.</li>
+                <li><strong>Maven</strong>. Usaremos la herramienta de gestión de proyectos en Java que simplificará el
+                    proceso de construcción, gestión y mantenimiento de proyectos de software.</li>
+                <li><strong>PostgreSQL (Base de Datos)</strong>. Para un desarrollo cómodo y sin problemas usaremos esta
+                    BBDD desplegada en un servidor remoto, el cual albergará la BBDD de forma gratuita durante su
+                    desarrollo.</li>
+                <li><strong>HTML, CSS, Boostrap (Documentación Web)</strong>. Usaremos estas tecnologías para poder
+                    realizar la documentación web del proyecto.</li>
+            </ul>
+        </section>
+        <!-- Agrega más secciones según sea necesario -->
     </div>
-</nav>
 
-<!-- Contenido de la documentación -->
-<div class="container mt-4">
-    <!-- Sección 1 -->
-    <section id="seccion1">
-        <h2>Sección 1</h2>
-        <p>Descripción detallada de la Sección 1.</p>
-        <!-- Contenido de la Sección 1 -->
-    </section>
-
-    <!-- Sección 2 -->
-    <section id="seccion2">
-        <h2>Sección 2</h2>
-        <p>Descripción detallada de la Sección 2.</p>
-        <!-- Contenido de la Sección 2 -->
-    </section>
-
-    <!-- Sección 3 -->
-    <section id="seccion3">
-        <h2>Sección 3</h2>
-        <p>Descripción detallada de la Sección 3.</p>
-        <!-- Contenido de la Sección 3 -->
-    </section>
-
-    <!-- Agrega más secciones según sea necesario -->
-</div>
-
-<!-- Bootstrap JS y dependencias -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
